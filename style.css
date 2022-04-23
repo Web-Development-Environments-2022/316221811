@@ -1,13 +1,3 @@
-#mainimage{
-	border-radius: 15px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	padding: 0%;
-	margin-top: 0%;
-}
-
 section{
 	text-align: center;
 	font-size: 17px;
@@ -54,6 +44,10 @@ h1:hover{
 	color: aliceblue;
 }
 
+h4:hover{
+	transform: scale(0.95)
+}
+
 #mainimage:hover{
 	opacity: 0.8;
 	animation: sailing .9s infinite alternate;
@@ -69,11 +63,15 @@ ul {
 	top: 0;
 	width: 100%;
   }
-  
+
   li {
 	float: left;
   }
-  
+
+  #logo {
+	float: right;
+  }
+
   li a {
 	display: block;
 	color: white;
@@ -116,8 +114,40 @@ ul {
 	transform: scale(0.8);
 }
 
+img {
+	border: 2px solid rgba(212, 202, 202, 0.929);
+	border-radius: 20px;
+  }
+
+  #mainimage{
+	border-radius: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 0%;
+	margin-top: 0%;
+}
 
 
+button {
+  background-image: linear-gradient( #ffffff, #b6b79c);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: rgb(17, 17, 18);
+  cursor: pointer;
+  font-size: 17px;
+  transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+}
+
+button:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+  transition-duration: .15s, .15s;
+}
+
+button:active {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
 
 
 
